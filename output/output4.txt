@@ -1,0 +1,8 @@
+Line 1: Token = #include <string> → Header
+Line 2: Token = #include "file.h" → Header
+Line 3: Token = #define value 1 → Preprocessor Directive
+Line 4: Token = string       → Keyword
+Line 4: Token = name         → Identifier
+Line 4: Token = =            → Operator
+Line 4: Token = "Rayyan"     → String Literal
+Line 4: Token = //strong my name in variable name → Comment

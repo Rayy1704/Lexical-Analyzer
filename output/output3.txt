@@ -1,0 +1,29 @@
+Line 1: Token = int          → Keyword
+Line 1: Token = main         → Identifier
+Line 1: Token = (            → Separator
+Line 1: Token = )            → Separator
+Line 1: Token = {            → Separator
+Line 2: Token = float        → Keyword
+Line 2: Token = x            → Identifier
+Line 2: Token = =            → Operator
+Line 2: Token = 3.14         → Float Literal
+Line 2: Token = ;            → Separator
+Line 3: Token = // This is a comment  → Comment
+Line 4: Token = if           → Keyword
+Line 4: Token = (            → Separator
+Line 4: Token = x            → Identifier
+Line 4: Token = >            → Operator
+Line 4: Token = 0            → Integer Literal
+Line 4: Token = )            → Separator
+Line 4: Token = {            → Separator
+Line 5: Token = x            → Identifier
+Line 5: Token = =            → Operator
+Line 5: Token = x            → Identifier
+Line 5: Token = +            → Operator
+Line 5: Token = 1            → Integer Literal
+Line 5: Token = ;            → Separator
+Line 6: Token = }            → Separator
+Line 7: Token = return       → Keyword
+Line 7: Token = 0            → Integer Literal
+Line 7: Token = ;            → Separator
+Line 8: Token = }            → Separator

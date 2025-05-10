@@ -1,0 +1,41 @@
+Line 1: Token = #include<iostream> → Header
+Line 2: Token = using        → Keyword
+Line 2: Token = namespace    → Keyword
+Line 2: Token = std          → Identifier
+Line 2: Token = ;            → Separator
+Line 3: Token = /*
+multi
+line
+comment
+
+*/ → Multi-Line Comment
+Line 4: Token = int          → Keyword
+Line 4: Token = main         → Identifier
+Line 4: Token = (            → Separator
+Line 4: Token = )            → Separator
+Line 4: Token = {            → Separator
+Line 5: Token = for          → Keyword
+Line 5: Token = (            → Separator
+Line 5: Token = int          → Keyword
+Line 5: Token = i            → Identifier
+Line 5: Token = =            → Operator
+Line 5: Token = 0            → Integer Literal
+Line 5: Token = ;            → Separator
+Line 5: Token = i            → Identifier
+Line 5: Token = <            → Operator
+Line 5: Token = 100          → Integer Literal
+Line 5: Token = ;            → Separator
+Line 5: Token = i            → Identifier
+Line 5: Token = ++           → Operator
+Line 5: Token = )            → Separator
+Line 5: Token = {            → Separator
+Line 6: Token = cout         → Identifier
+Line 6: Token = <<           → Operator
+Line 6: Token = "hello, world" → String Literal
+Line 6: Token = <<           → Operator
+Line 6: Token = i            → Identifier
+Line 6: Token = <<           → Operator
+Line 6: Token = endl         → Identifier
+Line 6: Token = ;            → Separator
+Line 7: Token = }            → Separator
+Line 8: Token = }            → Separator
